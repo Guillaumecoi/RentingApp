@@ -1,4 +1,4 @@
-package coigniez.RentingApp;
+package coigniez.rentingapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
