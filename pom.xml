@@ -12,7 +12,7 @@
 	<artifactId>RentingApp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>RentingApp</name>
-	<description>Renting app </description>
+	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>22</java.version>
 		<vaadin.version>24.3.10</vaadin.version>
@@ -32,12 +32,6 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-docker-compose</artifactId>
-			<scope>runtime</scope>
-			<optional>true</optional>
-		</dependency>
-		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
@@ -46,16 +40,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.mockito</groupId>
-			<artifactId>mockito-core</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>de.flapdoodle.embed</groupId>
-			<artifactId>de.flapdoodle.embed.mongo.spring3x</artifactId>
-			<version>4.13.0</version>
 		</dependency>
 	</dependencies>
 	<dependencyManagement>
